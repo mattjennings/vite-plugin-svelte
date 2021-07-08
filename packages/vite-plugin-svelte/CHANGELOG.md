@@ -1,5 +1,31 @@
 # @sveltejs/vite-plugin-svelte
 
+## 1.0.0-next.12
+
+### Minor Changes
+
+- [#75](https://github.com/sveltejs/vite-plugin-svelte/pull/75) [`f6f56fe`](https://github.com/sveltejs/vite-plugin-svelte/commit/f6f56fee7d3567196052a23440cb1818187fa232) Thanks [@dominikg](https://github.com/dominikg)! - resolve svelte to svelte/ssr when building for ssr (see #74)
+
+* [#78](https://github.com/sveltejs/vite-plugin-svelte/pull/78) [`2eb09cf`](https://github.com/sveltejs/vite-plugin-svelte/commit/2eb09cf180c7ebf0fb4ccfccee663e5264b3814c) Thanks [@bluwy](https://github.com/bluwy)! - Support svg extension
+
+- [#72](https://github.com/sveltejs/vite-plugin-svelte/pull/72) [`5100376`](https://github.com/sveltejs/vite-plugin-svelte/commit/5100376ef91d5e39ec00222f1043e4fda047678b) Thanks [@dominikg](https://github.com/dominikg)! - - Restart dev server when svelte config file changes
+  - Refactored e2e-tests to use package.json scripts
+  - Updated dependencies
+
+* [#68](https://github.com/sveltejs/vite-plugin-svelte/pull/68) [`9583900`](https://github.com/sveltejs/vite-plugin-svelte/commit/9583900a2b3600133cee3a46b6dbb7df137977b6) Thanks [@dominikg](https://github.com/dominikg)! - feat: Allow svelte imports to be added to optimizeDeps.include and don't exclude svelte from optimizeDeps then
+
+- [#64](https://github.com/sveltejs/vite-plugin-svelte/pull/64) [`c3f65fd`](https://github.com/sveltejs/vite-plugin-svelte/commit/c3f65fdf414b22810ad60817b3e1e62790ba816f) Thanks [@dominikg](https://github.com/dominikg)! - feat: vite config can be updated based on values in svelte config, provide knownJsSrcExtensions (see #60)
+
+### Patch Changes
+
+- [#70](https://github.com/sveltejs/vite-plugin-svelte/pull/70) [`377d464`](https://github.com/sveltejs/vite-plugin-svelte/commit/377d464eba30c56f012deba3d306cb5a7195b787) Thanks [@benmccann](https://github.com/benmccann)! - relax svelte peer dependency to 3.34.0
+
+* [#55](https://github.com/sveltejs/vite-plugin-svelte/pull/55) [`09b63d3`](https://github.com/sveltejs/vite-plugin-svelte/commit/09b63d32e8816acc554a66d4d01062be197dfbb7) Thanks [@dominikg](https://github.com/dominikg)! - fix kit-node tests
+
+- [#71](https://github.com/sveltejs/vite-plugin-svelte/pull/71) [`97ee68c`](https://github.com/sveltejs/vite-plugin-svelte/commit/97ee68c5106e58b2e7c4eb97e8cf7dd1c52bbfd3) Thanks [@dominikg](https://github.com/dominikg)! - output sourcemap in hmr helper preprocessor
+
+* [#83](https://github.com/sveltejs/vite-plugin-svelte/pull/83) [`eb048ff`](https://github.com/sveltejs/vite-plugin-svelte/commit/eb048ff9419488f75869ffb880a78a2a3aa5a6bb) Thanks [@dominikg](https://github.com/dominikg)! - reduced debug output
+
 ## 1.0.0-next.11
 
 ### Major Changes
